@@ -4,9 +4,10 @@ body {
     margin-right: 50px;
     display: grid;
     grid-template-columns: 2fr 8fr;
-    grid-template-rows: 1fr 5fr 2fr;
+    grid-template-rows: 1fr 5fr 1fr 1fr;
     grid-template-areas: 'header header'
                          'lside main'
+                         'footer footer'
                          'footer footer';
     height: 100vh;
 }
